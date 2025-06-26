@@ -71,27 +71,27 @@ This **Arduino-based Human Patient Monitoring System** is designed to collect vi
         * Sony 6800mAh 18650 Battery: Connect positive terminal to Vin & negative   terminal to GND via a battery holder.  
 
 **2. Software Requirements**
-    * Arduino IDE
-    * Libraries (install via Arduino Library Manager):
-        * `Wire.h` (usually built-in)
-        * `Adafruit MLX90614`
-        * `LiquidCrystal` (usually built-in)
-        * `PulseSensorPlayground`
-        * `SoftwareSerial` (usually built-in)
+    * Arduino IDE  
+    * Libraries (install via Arduino Library Manager):  
+        * `Wire.h` (usually built-in)  
+        * `Adafruit MLX90614`  
+        * `LiquidCrystal` (usually built-in)  
+        * `PulseSensorPlayground`  
+        * `SoftwareSerial` (usually built-in)  
 
-**3. Configure Wi-Fi Credentials**
-    * Open the Arduino sketch (`.ino` file).
-    * Locate the `ssid` and `password` variables.
-    * Replace `"your_SSID"` and `"your_PASSWORD"` with your actual Wi-Fi network credentials:
-        ```cpp
-        const char* ssid = "Your_WiFi_SSID";
-        const char* password = "Your_WiFi_Password";
-        ```
+**3. Configure Wi-Fi Credentials**  
+    * Open the Arduino sketch (`.ino` file).  
+    * Locate the `ssid` and `password` variables.  
+    * Replace `"your_SSID"` and `"your_PASSWORD"` with your actual Wi-Fi network credentials:  
+        ```cpp  
+        const char* ssid = "Your_WiFi_SSID";  
+        const char* password = "Your_WiFi_Password";  
+        ```  
 
-**4. Upload Code to Arduino**
-    * Connect your Arduino board to your computer.
-    * Select the correct board and port in the Arduino IDE.
-    * Upload the provided sketch to your Arduino.
+**4. Upload Code to Arduino**  
+    * Connect your Arduino board to your computer.  
+    * Select the correct board and port in the Arduino IDE.  
+    * Upload the provided sketch to your Arduino.  
 
 ---
 
