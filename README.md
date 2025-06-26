@@ -42,33 +42,33 @@ This **Arduino-based Human Patient Monitoring System** is designed to collect vi
 
 **1. Hardware Connections**
     * **LCD Connections**:
-        * VSS (Pin 1) $\rightarrow$ GND
-        * VDD (Pin 2) $\rightarrow$ 5V
-        * VO (Pin 3) $\rightarrow$ Middle pin of a potentiometer (others to 5V and GND)
-        * RS (Pin 4) $\rightarrow$ Arduino Digital Pin 12
-        * RW (Pin 5) $\rightarrow$ GND
-        * EN (Pin 6) $\rightarrow$ Arduino Digital Pin 11
-        * D4 (Pin 11) $\rightarrow$ Arduino Digital Pin 5
-        * D5 (Pin 12) $\rightarrow$ Arduino Digital Pin 4
-        * D6 (Pin 13) $\rightarrow$ Arduino Digital Pin 3
-        * D7 (Pin 14) $\rightarrow$ Arduino Digital Pin 2
-        * A (Anode, Pin 15) $\rightarrow$ 5V (through a 220-ohm resistor)
-        * K (Cathode, Pin 16) $\rightarrow$ GND
-    * **MLX90614 Sensor**:
-        * VIN $\rightarrow$ 5V
-        * GND $\rightarrow$ GND
-        * SCL $\rightarrow$ Arduino A5
-        * SDA $\rightarrow$ Arduino A4
-    * **AD8232 ECG Sensor**:
-        * Output $\rightarrow$ Arduino Analog Pin A0
-        * GND $\rightarrow$ GND
-        * 3.3V $\rightarrow$ 3.3V
-    * **Pulse Sensor**:
-        * Signal $\rightarrow$ Arduino Analog Pin A1
-        * VCC $\rightarrow$ 5V
-        * GND $\rightarrow$ GND
-    * **Powering the System**:
-        * Sony 6800mAh 18650 Battery: Connect positive terminal to Vin & negative terminal to GND via a battery holder.
+        * VSS (Pin 1) $\rightarrow$ GND  
+        * VDD (Pin 2) $\rightarrow$ 5V  
+        * VO (Pin 3) $\rightarrow$ Middle pin of a potentiometer (others to 5V and GND)  
+        * RS (Pin 4) $\rightarrow$ Arduino Digital Pin 12  
+        * RW (Pin 5) $\rightarrow$ GND  
+        * EN (Pin 6) $\rightarrow$ Arduino Digital Pin 11  
+        * D4 (Pin 11) $\rightarrow$ Arduino Digital Pin 5  
+        * D5 (Pin 12) $\rightarrow$ Arduino Digital Pin 4  
+        * D6 (Pin 13) $\rightarrow$ Arduino Digital Pin 3  
+        * D7 (Pin 14) $\rightarrow$ Arduino Digital Pin 2  
+        * A (Anode, Pin 15) $\rightarrow$ 5V (through a 220-ohm resistor)  
+        * K (Cathode, Pin 16) $\rightarrow$ GND  
+    * **MLX90614 Sensor**:  
+        * VIN $\rightarrow$ 5V  
+        * GND $\rightarrow$ GND  
+        * SCL $\rightarrow$ Arduino A5  
+        * SDA $\rightarrow$ Arduino A4  
+    * **AD8232 ECG Sensor**:  
+        * Output $\rightarrow$ Arduino Analog Pin A0  
+        * GND $\rightarrow$ GND  
+        * 3.3V $\rightarrow$ 3.3V  
+    * **Pulse Sensor**:  
+        * Signal $\rightarrow$ Arduino Analog Pin A1  
+        * VCC $\rightarrow$ 5V  
+        * GND $\rightarrow$ GND  
+    * **Powering the System**:  
+        * Sony 6800mAh 18650 Battery: Connect positive terminal to Vin & negative   terminal to GND via a battery holder.  
 
 **2. Software Requirements**
     * Arduino IDE
@@ -134,4 +134,4 @@ This **Arduino-based Human Patient Monitoring System** is designed to collect vi
 ---
 
 **Author:** Ferdous Hasan  
-**Date:** June 27, 2025
+**Date:** June 24, 2024
