@@ -9,19 +9,19 @@ This **Arduino-based Human Patient Monitoring System** is designed to collect vi
 🔍 **How It Works**
 
 1.  **Sensor Data Acquisition**
-    * An MLX90614 infrared sensor measures body temperature.
-    * An AD8232 ECG sensor captures electrocardiogram signals.
-    * A Pulse Sensor detects heart rate (BPM).
+    - An MLX90614 infrared sensor measures body temperature.
+    - An AD8232 ECG sensor captures electrocardiogram signals.
+    - A Pulse Sensor detects heart rate (BPM).
 
 2.  **Data Processing & Display**
-    * Sensor readings are processed by the Arduino microcontroller.
-    * Real-time temperature, ECG values, and heart rate are displayed on a 16x2 LCD screen.
-    * Data is also output to the serial monitor for debugging and monitoring.
+    - Sensor readings are processed by the Arduino microcontroller.
+    - Real-time temperature, ECG values, and heart rate are displayed on a 16x2 LCD screen.
+    - Data is also output to the serial monitor for debugging and monitoring.
 
 3.  **Wi-Fi Connectivity (Future Implementation)**
-    * An ESP-01 Wi-Fi module is used to establish connection to a specified Wi-Fi network.
-    * The module is reset and configured to station mode for network connection.
-    * This prepares the system for future functionality, such as sending collected health data to a server or IoT platform, once the necessary code is implemented.
+    - An ESP-01 Wi-Fi module is used to establish connection to a specified Wi-Fi network.
+    - The module is reset and configured to station mode for network connection.
+    - This prepares the system for future functionality, such as sending collected health data to a server or IoT platform, once the necessary code is implemented.
 
 ---
 
