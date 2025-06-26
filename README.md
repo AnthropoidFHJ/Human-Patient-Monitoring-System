@@ -27,14 +27,14 @@ This **Arduino-based Human Patient Monitoring System** is designed to collect vi
 
 🔧 **Key Technologies**
 
-* **Microcontroller**: Arduino
-* **Temperature Sensor**: MLX90614 (Infrared)
-* **ECG Sensor**: AD8232
-* **Heart Rate Sensor**: Pulse Sensor
-* **Display**: 16x2 LCD
-* **Wi-Fi Module**: ESP-01
-* **Communication**: I2C, SoftwareSerial
-* **Programming Language**: C++ (Arduino Sketch)
+- **Microcontroller**: Arduino
+- **Temperature Sensor**: MLX90614 (Infrared)
+- **ECG Sensor**: AD8232
+- **Heart Rate Sensor**: Pulse Sensor
+- **Display**: 16x2 LCD
+- **Wi-Fi Module**: ESP-01
+- **Communication**: I2C, SoftwareSerial
+- **Programming Language**: C++ (Arduino Sketch)
 
 ---
 
