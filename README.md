@@ -84,10 +84,9 @@ This **Arduino-based Human Patient Monitoring System** is designed to collect vi
     - Locate the `ssid` and `password` variables.  
     - Replace `"your_SSID"` and `"your_PASSWORD"` with your actual Wi-Fi network credentials:  
 
-        ```cpp
         const char* ssid = "Your_WiFi_SSID";  
         const char* password = "Your_WiFi_Password";  
-        ```  
+
 
 **4. Upload Code to Arduino**  
     - Connect your Arduino board to your computer.  
